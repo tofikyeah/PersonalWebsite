@@ -1,3 +1,22 @@
 body {
     text-align: center;
 }
+
+ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px; /* Adds space between list items */
+}
+
+ul li a {
+    text-decoration: none; /* Optional: Remove underline */
+    color: #000; /* Initial link color */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+ul li a:hover {
+    color: blue; /* Changes link color to blue on hover */
+}
